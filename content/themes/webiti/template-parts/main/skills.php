@@ -8,75 +8,75 @@
 		</div>
 		<ul class="skills-list">
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/html.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/html.png" alt="Logo HTML5" class="img">
 				<p class="text">HTML5</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/css.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/css.png" alt="Logo CSS3" class="img">
 				<p class="text">CSS3</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/sass.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/sass.png" alt="Logo SASS/SCSS" class="img">
 				<p class="text">SASS / SCSS</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/javascript.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/javascript.png" alt="Logo JS" class="img">
 				<p class="text">JS</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/jquery.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/jquery.png" alt="Logo JQuery" class="img">
 				<p class="text">JQuery</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/php.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/php.png" alt="Logo PHP" class="img">
 				<p class="text">PHP</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/mysql.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/mysql.png" alt="Logo MySql" class="img">
 				<p class="text">MySql</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/wp.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/wp.png" alt="Logo WordPress" class="img">
 				<p class="text">WordPress</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/prestashop.png" alt="" class="img">
-				<p class="text">Prestashop</p>
+				<img src="<?= get_template_directory_uri(); ?>/public/images/prestashop.png" alt="Logo PrestaShop" class="img">
+				<p class="text">PrestaShop</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/laravel.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/laravel.png" alt="Logo Laravel" class="img">
 				<p class="text">Laravel</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/symfony.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/symfony.png" alt="Logo Symfony" class="img">
 				<p class="text">Symfony</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/react.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/react.png" alt="Logo React.JS" class="img">
 				<p class="text">React.JS</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/linux.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/linux.png" alt="Logo Linux" class="img">
 				<p class="text">Linux</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/windows.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/windows.png" alt="Logo Windows" class="img">
 				<p class="text">Windows</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/mac.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/mac.png" alt="Logo Apple" class="img">
 				<p class="text">Apple</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/github.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/github.png" alt="Logo Github" class="img">
 				<p class="text">GitHub</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/photoshop.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/photoshop.png" alt="Logo PhotoShop" class="img">
 				<p class="text">PhotoShop</p>
 			</li>
 			<li class="skills-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/illustrator.png" alt="" class="img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/illustrator.png" alt="Logo Illustrator" class="img">
 				<p class="text">Illustrator</p>
 			</li>
 		</ul>

@@ -9,22 +9,22 @@
 			<div class="separator"></div>
 			<ul class="web-content-list" id="web">
 				<li class="web-content-items">
-					<img src="<?= get_template_directory_uri(); ?>/public/images/layout.png" alt="" class="web-content-items-img">
+					<img src="<?= get_template_directory_uri(); ?>/public/images/layout.png" alt="Image d'interface web" class="web-content-items-img">
 				</li>
 				<li class="web-content-items">
-					<img src="<?= get_template_directory_uri(); ?>/public/images/layout1.png" alt="" class="web-content-items-img">
+					<img src="<?= get_template_directory_uri(); ?>/public/images/layout1.png" alt="Image d'interface" web class="web-content-items-img">
 				</li>
 				<li class="web-content-items">
-					<img src="<?= get_template_directory_uri(); ?>/public/images/layout2.png" alt="" class="web-content-items-img">
+					<img src="<?= get_template_directory_uri(); ?>/public/images/layout2.png" alt="Image d'interface web" class="web-content-items-img">
 				</li>
 				<li class="web-content-items">
-					<img src="<?= get_template_directory_uri(); ?>/public/images/layout3.png" alt="" class="web-content-items-img">
+					<img src="<?= get_template_directory_uri(); ?>/public/images/layout3.png" alt="Image d'interface web" class="web-content-items-img">
 				</li>
 				<li class="web-content-items">
-					<img src="<?= get_template_directory_uri(); ?>/public/images/layout4.png" alt="" class="web-content-items-img">
+					<img src="<?= get_template_directory_uri(); ?>/public/images/layout4.png" alt="Image d'interface web" class="web-content-items-img">
 				</li>
 				<li class="web-content-items">
-					<img src="<?= get_template_directory_uri(); ?>/public/images/layout5.png" alt="" class="web-content-items-img">
+					<img src="<?= get_template_directory_uri(); ?>/public/images/layout5.png" alt="Image d'interface web" class="web-content-items-img">
 				</li>
 			</ul>
 			<p class="web-content-text-bottom" id="web1">Toute charte graphique, layout, idées sont envisageables. Chez <span class="pink">Web'iti</span> il n'y a pas de limite technique dans la conception ou la création d'un site internet.</p>

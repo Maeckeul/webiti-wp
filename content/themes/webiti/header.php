@@ -37,7 +37,7 @@
       <div class="header-mobile">
         <div class="container">
           <div class="logo">
-            <img src="<?= get_template_directory_uri(); ?>/public/images/logo-webiti.png" alt="" class="logo-image">
+            <img src="<?= get_template_directory_uri(); ?>/public/images/logo-webiti.png" alt="Logo Web'iti" class="logo-image">
           </div>
           <div class="menu" id="menu-button"></div>
         </div>
@@ -56,7 +56,7 @@
             <ul class="header-center">
               <li class="item">
                 <a href="#" class="item-link">
-                  <img src="<?= get_template_directory_uri(); ?>/public/images/logo-webiti.png" alt="" class="logo-image">
+                  <img src="<?= get_template_directory_uri(); ?>/public/images/logo-webiti.png" alt="Logo Web'iti" class="logo-image">
                 </a>
               </li>
             </ul>

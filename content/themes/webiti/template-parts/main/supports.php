@@ -8,13 +8,13 @@
 		</div>
 		<ul class="supports-list">
 			<li class="supports-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/Laptop.png" alt="" class="supports-list-items-img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/Laptop.png" alt="Image d'un support ordinateur" class="supports-list-items-img">
 			</li>
 			<li class="supports-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/Tablet.png" alt="" class="supports-list-items-img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/Tablet.png" alt="Image d'un support tablette" class="supports-list-items-img">
 			</li>
 			<li class="supports-list-items">
-				<img src="<?= get_template_directory_uri(); ?>/public/images/Phone.png" alt="" class="supports-list-items-img">
+				<img src="<?= get_template_directory_uri(); ?>/public/images/Phone.png" alt="Image d'un support téléphone" class="supports-list-items-img">
 			</li>
 		</ul>
 	</div>
