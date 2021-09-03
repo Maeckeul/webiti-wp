@@ -1,0 +1,41 @@
+.fonctionnalities-content {
+    padding: 4rem 1rem;
+
+    &-title {
+        color: $white;
+        font-size: $font-size-h2-sm;
+        font-family: $font-family-bold;
+
+        @media screen and (min-width: $breakpoint-medium) {
+            font-size: $font-size-h2-large;
+        }
+    }
+
+    &-text {
+        color: $white;
+        font-size: $font-size-text-sm;
+        font-family: $font-family-medium;
+        margin: 1rem 0;
+
+        @media screen and (min-width: $breakpoint-medium) {
+            font-size: 1.5em;
+        }
+    }
+
+    .separator {
+        height: 2px;
+        background-color: $pink;
+        width: 100px;
+        margin: 2rem 0;
+    }
+
+    &-text-bottom {
+        color: $white;
+        max-width: 800px;
+
+        .pink {
+            color: $pink;
+            font-family: $font-family-medium;
+        }
+    }
+}

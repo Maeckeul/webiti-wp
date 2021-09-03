@@ -1,0 +1,42 @@
+.banner {
+    background-color: $anthracite;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and (min-width: $breakpoint-large) {
+        padding: 3rem;
+    }
+
+}
+
+.banner-link-top {
+    background-color: $anthracite;
+    padding: 1rem;
+    display: flex;
+
+    @media screen and (min-width: $breakpoint-large) {
+        padding: 3rem;
+        justify-content: flex-end;
+    }
+}
+
+.banner-link-bottom {
+    background-color: $anthracite;
+    padding: 1rem;
+    display: flex;
+
+    @media screen and (min-width: $breakpoint-large) {
+        padding: 3rem;
+    }
+}
+
+.banner-contact {
+    background-color: $anthracite;
+    padding: 1rem;
+
+    @media screen and (min-width: $breakpoint-large) {
+        padding: 3rem;
+    }
+}

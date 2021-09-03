@@ -1,0 +1,15 @@
+.fonctionnalities {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url("/images/ideas.jpg");
+
+    .opacity {
+        width: 100%; 
+        background-color: rgba(0, 0, 0, 0.4);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+}

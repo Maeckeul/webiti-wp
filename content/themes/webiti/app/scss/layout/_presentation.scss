@@ -1,0 +1,16 @@
+.presentation {
+    min-height: 100vh;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: $breakpoint-large) {
+        padding-top: 0;
+    }
+}
+
+#presentation {
+    position: relative;
+    top: -45px;
+}
