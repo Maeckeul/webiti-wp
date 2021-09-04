@@ -7,18 +7,26 @@
 				<div class="separator"></div>
 				<ul class="list">
 					<li class="item">
-						<a href="telto:+68989612176" class="link">
-							<i class="fa fa-phone" ></i> +689 89 61 21 76
+						<a href="tel:+68989612176" class="link">
+							<i class="fa fa-phone" ></i>+689 89 61 21 76
 						</a>
 					</li>
 					<li class="item">
-						<a href="mailto:cmaeckeul@gmail.com" class="link">
-							<i class="fa fa-envelope-o"></i> cmaeckeul@gmail.com
+						<a href="mailto:contact@web-iti.com" class="link">
+							<i class="fa fa-envelope-o"></i>contact@web-iti.com
 						</a>
 					</li>
 				</ul>
 			</div>
-			<form action="submit" method="post" class="contacts-form">
+			
+			<?= do_shortcode('[contact-form-7 id="19" title="Contact"]'); ?>
+
+		</div>
+	</section>
+</main>
+
+
+<!--
 				<div class="left">
 					<div class="name">
 						<input type="text" class="name-input" name="name" id="name" placeholder="Votre nom" required>
@@ -41,7 +49,4 @@
 						<input type="submit" class="submit-input" value="Envoyer">
 					</div>
 				</div>
-			</form>
-		</div>
-	</section>
-</main>
+-->

@@ -9,7 +9,7 @@
         <a href="" class="link"><i class="fa fa-facebook-square"></i></a>
       </li>
       <li class="item">
-        <a href="" class="link"><i class="fa fa-envelope-o" aria-hidden="true"></i> cmaeckeul@gmail.com</a>
+        <a href="#contacts" class="link"><i class="fa fa-envelope-o" aria-hidden="true"></i> contact@web-iti.com</a>
       </li>
     </ul>
   </div>

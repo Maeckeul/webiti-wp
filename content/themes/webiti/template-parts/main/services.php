@@ -67,7 +67,7 @@
 								</div>
 							</div>
 							<div class="item-content-text">
-								<h3 class="item-title">Blog</h3>
+								<h3 class="item-title">Site Web</h3>
 								<p class="item-text">Développement de plateformes de gestion de contenu. Création de modules complémentaires et sur mesure.</p>
 							</div>
 						</div>
@@ -89,7 +89,7 @@
 						<div class="item-content">
 							<div class="item-content-logo">
 								<div class="icon">
-									<i class="bi bi-search"></i>
+									<i class="fa fa-paint-brush"></i>
 								</div>
 							</div>
 							<div class="item-content-text">

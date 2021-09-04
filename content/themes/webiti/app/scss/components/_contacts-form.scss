@@ -1,4 +1,4 @@
-.contacts-form {
+.wpcf7-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,8 +138,8 @@
             }
 
             &-input {
-                min-width: 100%;
-                max-width: 100%;
+                min-width: 100% !important;
+                max-width: 100% !important;
                 height: 209px;
                 background-color: #eeeeee;
                 border: 0.1px #cfcfcf solid;
