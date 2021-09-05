@@ -45,7 +45,7 @@
   font-family: "Montserrat-Medium";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/Montserrat-Medium.ttf"); }
+  src: url("/fonts/Montserrat-Medium.ttf"); }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v5.0.1 | 20191019
@@ -329,7 +329,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-image: url("../images/star.png");
+  background-image: url("../images/star_opt.jpg");
   background-size: cover;
   background-position: center; }
   .services-content {
@@ -547,7 +547,7 @@ body {
       .wpcf7-form .right .message-input {
         min-width: 100% !important;
         max-width: 100% !important;
-        height: 250px;
+        height: 209px;
         background-color: #eeeeee;
         border: 0.1px #cfcfcf solid;
         border-radius: 3px;
