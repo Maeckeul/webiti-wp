@@ -45,7 +45,7 @@
   font-family: "Montserrat-Medium";
   font-weight: normal;
   font-style: normal;
-  src: url("/fonts/Montserrat-Medium.ttf"); }
+  src: url("../fonts/Montserrat-Medium.ttf"); }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v5.0.1 | 20191019
@@ -234,6 +234,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 4rem 0; }
+  .contacts .container {
+    max-width: 100%; }
 
 #contacts {
   position: relative;
@@ -333,7 +335,8 @@ body {
   background-size: cover;
   background-position: center; }
   .services-content {
-    padding: 4rem 0; }
+    padding: 4rem 0;
+    max-width: 100%; }
 
 #services {
   position: relative;
@@ -359,6 +362,8 @@ body {
   align-items: center;
   padding: 4rem 0;
   background-color: #FAFAFA; }
+  .supports .container {
+    max-width: 100%; }
 
 .web {
   position: relative;
@@ -450,7 +455,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 0; }
+  padding: 1rem 0;
+  width: 100%; }
   @media screen and (min-width: 992px) {
     .wpcf7-form {
       flex-direction: row;
@@ -547,7 +553,7 @@ body {
       .wpcf7-form .right .message-input {
         min-width: 100% !important;
         max-width: 100% !important;
-        height: 209px;
+        height: 248px;
         background-color: #eeeeee;
         border: 0.1px #cfcfcf solid;
         border-radius: 3px;
@@ -555,6 +561,15 @@ body {
         color: #747474;
         padding: 1rem;
         font-family: "Montserrat-Regular", sans-serif; }
+        @media screen and (min-width: 992px) {
+          .wpcf7-form .right .message-input {
+            max-width: 521px !important; } }
+        @media screen and (min-width: 1200px) {
+          .wpcf7-form .right .message-input {
+            max-width: 562px !important; } }
+        @media screen and (min-width: 1400px) {
+          .wpcf7-form .right .message-input {
+            max-width: 652px !important; } }
       .wpcf7-form .right .message-input:focus {
         border: 0.1px #ff6c6c solid !important; }
       .wpcf7-form .right .message textarea:focus {
@@ -657,7 +672,8 @@ body {
 
 .footer .content {
   color: #747474;
-  font-size: 14px; }
+  font-size: 14px;
+  text-align: center; }
   .footer .content .pink {
     color: #ff6c6c; }
 
