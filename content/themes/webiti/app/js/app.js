@@ -112,7 +112,7 @@ window.onload = function() {
 
 $(app.init);
 
-$('.home').parallax({imageSrc: './images/home-v2.jfif'});
+$('.home').parallax({imageSrc: './images/bg-accueil-web-iti.jpg'});
 
 $(document).ready(function(){
   $(window).scroll(function(){

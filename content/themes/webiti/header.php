@@ -13,11 +13,11 @@
       <div class="home-content">
         <div class="container">
           <h1 class="home-content-title">
-            <img src="<?= get_template_directory_uri(); ?>/public/images/logo-webiti.png" alt="Logo Web'Iti" class="home-content-title-img">
+            <img src="<?= get_template_directory_uri(); ?>/public/images/logo-web-iti.png" alt="Logo Web'Iti" class="home-content-title-img">
             <div class="text-content" id="home-content">
               <span class="text">Développement Web</span>
-              <span class="text">Création de site & Application</span>
-              <span class="text">Graphisme</span>
+              <span class="text">Création de sites & Applications</span>
+              <span class="text">Design Web</span>
               <p class="typewrite" data-period="1000" data-type='[ "Tahiti et ses îles","Nous vous proposons nos services", "N&#39;hésitez pas à nous contacter!", ":)"]'>
                 <span class="wrap"></span>
               </p>
@@ -37,7 +37,7 @@
       <div class="header-mobile">
         <div class="container">
           <div class="logo">
-            <img src="<?= get_template_directory_uri(); ?>/public/images/logo-webiti.png" alt="Logo Web'iti" class="logo-image">
+            <img src="<?= get_template_directory_uri(); ?>/public/images/logo-web-iti.png" alt="Logo Web'iti" class="logo-image">
           </div>
           <div class="menu" id="menu-button"></div>
         </div>
@@ -56,7 +56,7 @@
             <ul class="header-center">
               <li class="item">
                 <a href="#" class="item-link">
-                  <img src="<?= get_template_directory_uri(); ?>/public/images/logo-webiti.png" alt="Logo Web'iti" class="logo-image">
+                  <img src="<?= get_template_directory_uri(); ?>/public/images/logo-web-iti.png" alt="Logo Web'iti" class="logo-image">
                 </a>
               </li>
             </ul>

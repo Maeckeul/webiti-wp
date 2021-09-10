@@ -19,34 +19,8 @@
 				</ul>
 			</div>
 			
-			<?= do_shortcode('[contact-form-7 id="19" title="Contact"]'); ?>
+			<?php echo do_shortcode('[contact-form-7 id="21" title="Contact"]'); ?>
 
 		</div>
 	</section>
 </main>
-
-
-<!--
-				<div class="left">
-					<div class="name">
-						<input type="text" class="name-input" name="name" id="name" placeholder="Votre nom" required>
-					</div>
-					<div class="society">
-						<input type="text" class="society-input" name="society" id="society" placeholder="Société">
-					</div>
-					<div class="email">
-						<input type="email" class="email-input" name="email" id="email" placeholder="Votre Email">
-					</div>
-					<div class="subject">
-						<input type="text" class="subject-input" name="subject" id="subject" placeholder="Votre Sujet">
-					</div>
-				</div>
-				<div class="right">
-					<div class="message">
-						<textarea class ="message-input" id="message" name="message" placeholder="Votre message"></textarea>
-					</div>
-					<div class="submit">
-						<input type="submit" class="submit-input" value="Envoyer">
-					</div>
-				</div>
--->

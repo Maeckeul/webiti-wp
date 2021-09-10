@@ -32,14 +32,6 @@ if (!function_exists('webitiScripts')) :
             '1.0.0',
             true
         );
-
-        wp_enqueue_script(
-            'parallax-js',
-            get_theme_file_uri('/public/js/parallax.min.js'),
-            [],
-            '1.0.0',
-            true
-        );
     }
 
 endif; 
