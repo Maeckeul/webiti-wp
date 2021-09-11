@@ -110,6 +110,13 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 
+const loader = document.querySelector('.loader');
+
+window.addEventListener('load', () => {
+  loader.classList.add('fondu-out');
+  loader.style.display = 'none';
+});
+
 $(app.init);
 
 $('.home').parallax({imageSrc: './images/bg-accueil-web-iti.jpg'});
@@ -211,5 +218,7 @@ $(document).ready(function(){
 $( '#menu a' ).on("click", function(){
   $('.menu').removeClass('close');
 });
+
+
 
 

@@ -37,7 +37,9 @@
       <div class="header-mobile">
         <div class="container">
           <div class="logo">
-            <img src="<?= get_template_directory_uri(); ?>/public/images/logo-web-iti.png" alt="Logo Web'iti" class="logo-image">
+            <a href="#" class="logo-link">
+              <img src="<?= get_template_directory_uri(); ?>/public/images/logo-web-iti.png" alt="Logo Web'iti" class="logo-image">
+            </a>
           </div>
           <div class="menu" id="menu-button"></div>
         </div>

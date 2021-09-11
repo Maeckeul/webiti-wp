@@ -16,5 +16,13 @@
             margin: 1rem 2rem 1rem 0;
         }
 
+        &-img {
+            width: 130px;
+
+            @media screen and (min-width: $breakpoint-small) {
+                width: 181px;
+            }  
+        }
+
     }
 }

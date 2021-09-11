@@ -1,0 +1,52 @@
+.loader {
+    position : fixed;
+    display: flex;
+    z-index: 5;
+    background-color: $pink;
+    top : 0px;
+    left : 0px;
+    height : 100%;
+    width : 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-img {
+        width: 400px;
+        height: 150px;
+    }
+
+    &-text {
+        color: white;
+        font-family: $font-family-medium;
+    }
+
+    &-accolade {
+        margin-top: 1rem;
+        color: #fff;
+        font-weight: bold;
+        font-size: 5vh;
+        opacity: 0.8;
+
+        span {
+            display: inline-block;
+            animation: pulse 0.4s alternate infinite ease-in-out;
+        
+            &:nth-child(odd) {
+              animation-delay: 0.4s;
+            }
+        }
+    }
+
+    @keyframes pulse {
+        to {
+          transform: scale(0.8);
+          opacity: 0.5;
+        }
+    }   
+}
+
+.fondu-out {
+    opacity: 0; 
+    transition: opacity 0.4s ease-out;
+}

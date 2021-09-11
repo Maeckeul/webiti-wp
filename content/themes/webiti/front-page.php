@@ -26,4 +26,6 @@ get_template_part('template-parts/main/banner-contact');
 
 get_template_part('template-parts/main/contacts');
 
+get_template_part('template-parts/loader/loader');
+
 get_footer();
