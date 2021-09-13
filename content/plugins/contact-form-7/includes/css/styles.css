@@ -22,21 +22,49 @@
 }
 
 .wpcf7 form.sent .wpcf7-response-output {
-	border-color: #46b450; /* Green */
+	/* border-color: #46b450; Green */
+    border-radius: 5px !important;
+    border: #0F5132 1px solid !important;
+    padding: 1rem !important;
+    display: block !important;
+    height: 100% !important;
+    background-color: #D1E7DD !important;
+    color: #0F5132 !important;
 }
 
 .wpcf7 form.failed .wpcf7-response-output,
 .wpcf7 form.aborted .wpcf7-response-output {
-	border-color: #dc3232; /* Red */
+	/* border-color: #dc3232; Red */
+	border-radius: 5px !important;
+    border: #842039 1px solid !important;
+    padding: 1rem !important;
+    display: block !important;
+    height: 100% !important;
+    background-color: #F8D7DA !important;
+    color: #842039!important;
 }
 
 .wpcf7 form.spam .wpcf7-response-output {
-	border-color: #f56e28; /* Orange */
+	/* border-color: #f56e28; Orange */
+	border-radius: 5px !important;
+    border: #665235 1px solid !important;
+    padding: 1rem !important;
+    display: block !important;
+    height: 100% !important;
+    background-color: #FFF3CD !important;
+    color: #665235!important;
 }
 
 .wpcf7 form.invalid .wpcf7-response-output,
 .wpcf7 form.unaccepted .wpcf7-response-output {
-	border-color: #ffb900; /* Yellow */
+	/* border-color: #ffb900; Yellow */
+	border-radius: 5px !important;
+    border: #665235 1px solid !important;
+    padding: 1rem !important;
+    display: block !important;
+    height: 100% !important;
+    background-color: #FFF3CD !important;
+    color: #665235 !important;
 }
 
 .wpcf7-form-control-wrap {

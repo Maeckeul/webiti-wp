@@ -12,7 +12,7 @@
 					<img src="<?= get_template_directory_uri(); ?>/public/images/icon-page-web.png" alt="Image d'interface web" class="web-content-items-img">
 				</li>
 				<li class="web-content-items">
-					<img src="<?= get_template_directory_uri(); ?>/public/images/icon-page-web-1.png" alt="Image d'interface" web class="web-content-items-img">
+					<img src="<?= get_template_directory_uri(); ?>/public/images/icon-page-web-1.png" alt="Image d'interface web" web class="web-content-items-img">
 				</li>
 				<li class="web-content-items">
 					<img src="<?= get_template_directory_uri(); ?>/public/images/icon-page-web-2.png" alt="Image d'interface web" class="web-content-items-img">

@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /wp/
+Disallow: /vendor/
+Disallow: /content/
+allow: /content/uploads/
+allow: /content/plugins/
+allow: /content/themes/
+allow: /wp/wp-admin/admin-ajax.php
+allow: /wp/wp-includes/css/
+allow: /wp/wp-includes/js/
+Disallow: /wp/wp-login.php
+Sitemap: https://www.web-iti.com/sitemap_index.xml

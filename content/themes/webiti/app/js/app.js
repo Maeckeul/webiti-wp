@@ -129,55 +129,13 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $(window).scroll(function(){
+      $("#write").css("opacity", 1 - $(window).scrollTop() / ($('#write').height() / 0.2));
+  });
+});
+
+$(document).ready(function(){
+  $(window).scroll(function(){
       $("#arrow").css("opacity", 1 - $(window).scrollTop() / ($('#arrow').height() / 0.2));
-  });
-});
-
-$(document).ready(function(){
-  $(window).scroll(function(){
-      $("#banner").css("opacity", 10.5 - $(window).scrollTop() / ($('#banner').height() / 0.1));
-  });
-});
-
-$(document).ready(function(){
-  $(window).scroll(function(){
-      $("#banner1").css("opacity", 10.5 - $(window).scrollTop() / ($('#banner1').height() / 0.1));
-  });
-});
-
-$(document).ready(function(){
-  $(window).scroll(function(){
-      $("#banner2").css("opacity", 10.5 - $(window).scrollTop() / ($('#banner2').height() / 0.1));
-  });
-});
-
-$(document).ready(function(){
-  $(window).scroll(function(){
-      $("#banner3").css("opacity", 10.5 - $(window).scrollTop() / ($('#banner3').height() / 0.1));
-  });
-});
-
-$(document).ready(function(){
-  $(window).scroll(function(){
-      $("#web").css("opacity", 6 - $(window).scrollTop() / ($('#web').height() / 0.3));
-  });
-});
-
-$(document).ready(function(){
-  $(window).scroll(function(){
-      $("#web1").css("opacity", 22 - $(window).scrollTop() / ($('#web1').height() / 0.3));
-  });
-});
-
-$(document).ready(function(){
-  $(window).scroll(function(){
-      $("#fonctionnalities").css("opacity", 19 - $(window).scrollTop() / ($('#fonctionnalities').height() / 1));
-  });
-});
-
-$(document).ready(function(){
-  $(window).scroll(function(){
-      $("#fonctionnalities1").css("opacity", 49 - $(window).scrollTop() / ($('#fonctionnalities1').height() / 0.3));
   });
 });
 
