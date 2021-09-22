@@ -1,13 +1,14 @@
 #menu {
-    transition:transform .5s;
-    position: absolute;
+    position: fixed;
+    top: 0;
     width: 100%;
-    transform:translateY(-1500px);
+    height: 100vh; 
     background-color: $grey-menu;
     z-index: 4;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+    z-index: -1000;
 
     @media screen and (min-width: $breakpoint-medium) { 
         display: none;
@@ -66,9 +67,11 @@
     }
 }
 
-#menu.show-menu{
+#menu.show-menu {
     position: fixed;
-    transform:translateY(-550px);
     font-family: $font-family-reg;
     width: 100vw;
+    min-height: 100vh;
+    z-index: 6;
+    padding-top: 120px;
 }

@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+	<meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://www.web-iti.com/content/themes/webiti/public/images/logo-web-iti-linkedin.png" />
+
 	<?php wp_head(); ?>
 
 </head>
@@ -15,7 +16,7 @@
           <img src="<?= get_template_directory_uri(); ?>/public/images/logo-web-iti.png" alt="Logo Web'iti" class="home-content-img">
           <h1 class="home-content-title" id="home-content">
             <span class="text">Développement Web</span>
-            <span class="text">Création de sites web & Applications</span>
+            <span class="text">Création de Sites internet & Applications</span>
             <span class="text">Web Design</span> 
             <span class="text">Tahiti</span>
           </h1>
