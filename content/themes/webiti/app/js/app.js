@@ -25,6 +25,12 @@ var app = {
   },
 };
 
+const sun = document.querySelector('.sun');
+const body = document.querySelector('body');
+sun.onclick = function() {
+  body.classList.toggle('dark');
+};
+
 var TxtType = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -119,7 +125,7 @@ window.addEventListener('load', () => {
 
 $(app.init);
 
-$('.home').parallax({imageSrc: './images/bg-accueil-web-iti.jpg'});
+// $('.home').parallax({imageSrc: './images/bg-accueil-web-iti.jpg'});
 
 $(document).ready(function(){
   $(window).scroll(function(){

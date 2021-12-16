@@ -28,6 +28,13 @@
 
         .item {
             margin: 0 1.5rem;
+
+            &-link {
+
+                .logo-image {
+                    height: 90px;
+                }
+            }
         }
     }
 
