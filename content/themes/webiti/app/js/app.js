@@ -2,28 +2,47 @@ require ('jquery');
 require('jquery-parallax.js');
 require('jquery.scrollex');
 
-var app = {
-  init: function() {
-    app.enableScrollex();
-  },
+var intFrameHeight = window.innerHeight;
 
-  enableScrollex: function() {
-    $('.scrollex').scrollex({
+$(document).ready(function() {
+  
+  $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+    if ($(window).scrollTop() > intFrameHeight) {
+      $('#nav_bar').addClass('header--is-fixed');
+    }
+    if ($(window).scrollTop() < intFrameHeight) {
+      $('#nav_bar').removeClass('header--is-fixed');
+    }
+  });
+});
+
+// var app = {
+//   init: function() {
+//     app.enableScrollex();
+//   },
+
+//   enableScrollex: function() {
+//     $('.scrollex').scrollex({
       
-      enter: app.removeHeaderFixed,
-      leave: app.setHeaderFixed,
-      bottom: '50px',
-    });
-  },
+//       enter: app.removeHeaderFixed,
+//       leave: app.setHeaderFixed,
+//       bottom: '50px',
+//     });
+//   },
 
-  removeHeaderFixed: function() {
-    $('.header').removeClass('header--is-fixed');
-  },
+//   removeHeaderFixed: function() {
+//     $('.header').removeClass('header--is-fixed');
+//   },
 
-  setHeaderFixed: function() {
-    $('.header').addClass('header--is-fixed');
-  },
-};
+//   setHeaderFixed: function() {
+//     $('.header').addClass('header--is-fixed');
+//   },
+
+// };
 
 const sun = document.querySelector('.sun');
 const body = document.querySelector('body');
@@ -123,27 +142,27 @@ window.addEventListener('load', () => {
   loader.style.display = 'none';
 });
 
-$(app.init);
+// $(app.init);
 
 // $('.home').parallax({imageSrc: './images/bg-accueil-web-iti.jpg'});
 
-$(document).ready(function(){
-  $(window).scroll(function(){
-      $("#home-content").css("opacity", 1 - $(window).scrollTop() / ($('#home-content').height() / 0.5));
-  });
-});
+// $(document).ready(function(){
+//   $(window).scroll(function(){
+//       $("#home-content").css("opacity", 1 - $(window).scrollTop() / ($('#home-content').height() / 0.5));
+//   });
+// });
 
-$(document).ready(function(){
-  $(window).scroll(function(){
-      $("#write").css("opacity", 1 - $(window).scrollTop() / ($('#write').height() / 0.2));
-  });
-});
+// $(document).ready(function(){
+//   $(window).scroll(function(){
+//       $("#write").css("opacity", 1 - $(window).scrollTop() / ($('#write').height() / 0.2));
+//   });
+// });
 
-$(document).ready(function(){
-  $(window).scroll(function(){
-      $("#arrow").css("opacity", 1 - $(window).scrollTop() / ($('#arrow').height() / 0.2));
-  });
-});
+// $(document).ready(function(){
+//   $(window).scroll(function(){
+//       $("#arrow").css("opacity", 1 - $(window).scrollTop() / ($('#arrow').height() / 0.2));
+//   });
+// });
 
 $(".scroll").click(function(event){
   event.preventDefault();

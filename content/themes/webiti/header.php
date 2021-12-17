@@ -11,34 +11,34 @@
 <body>
   <div class="wrapper">
     <div class="home">
-      <div class="home-content">
-        <div class="container">
-          <img src="<?= get_template_directory_uri(); ?>/public/images/logo-web-iti.png" alt="Logo Web'iti" class="home-content-img">
-          <h1 class="home-content-title" id="home-content">
-            <span class="text">Développement Web</span>
-            <span class="text">Création de Sites internet & Applications</span>
-            <span class="text">Web Design</span> 
-            <span class="text">Tahiti</span>
-          </h1>
-          <p class="typewrite" id="write" data-period="1000" data-type='[ "Nous vous proposons nos services", "N&#39;hésitez pas à nous contacter!", ":)"]'>
-            <span class="wrap"></span>
-          </p>
-          <div class="arrow" id="arrow">
-            <a href="#presentation" class="arrow-link scroll">
-              <i class="fa fa-long-arrow-down"></i>
-            </a>
-          </div>
+      <section class="scene">
+        <div class="logo">
+          <img src="<?= get_template_directory_uri(); ?>/public/images/logo-webiti.png" alt="" class="logo-img">
+          <span class="text1">Développement Web</span>
+          <span class="text2">Création de site web<br /> et Application</span>
+          <span class="text3">Web Design</span>
+          <span class="text4">Besoin d'une fonctionnalité<br /> spécialisée pour votre site ?</span>
+          <span class="text5">Besoin d'un site web ou<br /> d'une application ?</span>
+          <span class="text6">Besoin d'une interface<br /> unique pour vos sites<br /> ou applications ?</span>
         </div>
-      </div>
+        <div class="sun"></div>
+        <div class="description">
+          <span class="description-clic">Evite le coup de soleil !<br /><i class="bi bi-arrow-return-left"></i></span>
+        </div>
+        <div class="description2">
+          <span class="description2-clic">On y voit plus rien ?<br /><i class="bi bi-arrow-return-right"></i></span>
+        </div>
+        <div class="bg"></div>
+      </section>
     </div>
     <div class="scrollex"></div>
     <div id="presentation"></div>
-    <header class="header">
+    <header class="header" id="nav_bar">
       <div class="header-mobile">
         <div class="container">
-          <div class="logo">
-            <a href="<?= home_url() ?>" class="logo-link">
-              <img src="<?= get_template_directory_uri(); ?>/public/images/logo-web-iti.png" alt="Logo Web'iti" class="logo-image">
+          <div class="logo-header">
+            <a href="<?= home_url() ?>" class="logo-header-link">
+              <img src="<?= get_template_directory_uri(); ?>/public/images/logo-web-iti.png" alt="Logo Web'iti" class="logo-header-link-image">
             </a>
           </div>
           <div class="menu" id="menu-button"></div>
