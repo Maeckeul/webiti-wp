@@ -12,8 +12,8 @@
 						</a>
 					</li>
 					<li class="item">
-						<a href="mailto:contact@web-iti.com" class="link">
-							<i class="fa fa-envelope-o"></i>contact@web-iti.com
+						<a href="mailto:contact&commat;web-iti&period;com" class="link">
+							<i class="fa fa-envelope-o"></i>contact&commat;web-iti&period;com
 						</a>
 					</li>
 				</ul>

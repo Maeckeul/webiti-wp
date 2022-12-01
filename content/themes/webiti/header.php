@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://www.web-iti.com/content/themes/webiti/public/images/logo-web-iti-linkedin.png" />
+	<meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://www.web-iti.com/content/themes/webiti/public/images/logo-web-iti-linkedin.png">
 
 	<?php wp_head(); ?>
 
